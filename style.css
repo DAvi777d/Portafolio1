@@ -6,15 +6,18 @@ html{
 .titulo{
     color: #ffffff;
     text-align: center;
+    font-family: Rubik,'Times New Roman', Times, serif;
 }
 
 .subtitulo{
     color: #ffffff;
     text-align: center;
+    font-family: Rubik,'Times New Roman', Times, serif;
 }
 
 p{
     color: #ffffff;
+    font-family: Rubik,'Times New Roman', Times, serif;
 }
 
 .menu{
