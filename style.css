@@ -1,0 +1,48 @@
+html{
+    background-color: #020403;
+    
+}
+
+.titulo{
+    color: #ffffff;
+    text-align: center;
+}
+
+.subtitulo{
+    color: #ffffff;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+}
+
+.menu{
+ display: block;
+ margin-left: auto;
+  color: #ffffff;
+  padding: 1rem;
+}
+.dani{
+    position: static ;
+    display: block;
+    margin: auto;
+
+}
+.fondo{
+    background-image: url(lineaArriba.svg);
+    margin: 0;
+}
+
+.uno{
+    display: inline-flex;
+}
+.dos{
+    display: inline-block;
+}
+.tres{
+    display: inline-block;
+    
+    
+}
+
