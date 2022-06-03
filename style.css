@@ -34,18 +34,37 @@ p{
 }
 .fondo{
     background-image: url(lineaArriba.svg);
-    margin: 0;
+  
 }
 
 .uno{
     display: inline-flex;
+    margin: auto;
 }
 .dos{
     display: inline-block;
+    margin: auto;
 }
 .tres{
     display: inline-block;
-    
-    
+    margin: auto;    
 }
 
+.imagenportafolio{
+ display: flex;
+}
+.contacto{
+    display: flex;
+}
+
+.tituloContacto{
+    text-align: center;
+}
+.habilidades{
+    text-align: center;
+    display: flex;
+}
+.desarrollo{
+    text-align: center;
+    display: flex;
+}
