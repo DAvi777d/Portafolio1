@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi Portafolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="media-queris.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+   
         <nav>
-            <div>
-                <img class="menu" src="menu 1.svg" alt="menu hamburguesa">
-            </div>
-            <ul class="nav-menu">
+            <button onclick="toggleMenu()"> - </button>
+            <ul class="hidden" id="nav">
+               <!--  <div>
+                    <button>
+                        <img class="menu" src="menu 1.svg" alt="menu hamburguesa">  
+                    </button> 
+                </div> -->
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Acerca de mi</a></li>
                 <li><a href="#">Mis habilidades</a></li>
@@ -22,7 +26,7 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+  
   
     
     <div class="fondo">
@@ -33,10 +37,14 @@
        
         <h2 class="subtitulo">Hola, soy  Dan</h2>
         <h1 class="titulo">Diseñador y desarrollador web</h1>
-        <img class="uno" src="linkedin.svg" alt="linkedin">
-        <img class="dos" src="instagram.svg" alt="insta">
-        <img class="tres" src="twitter.svg" alt="twitter">
-        
+       
+      <div class="row">
+       <div class="redes"> 
+         <img src="linkedin.svg" alt="linkedin">
+         <img src="instagram.svg" alt="insta">
+         <img src="twitter.svg" alt="twitter">
+       </div>
+      </div>
     </div>
   
     <div>
@@ -52,26 +60,42 @@
    
         <div class="row">
              <div class="col-12">
+               <div>
                 <h1 class="titulo">Mis habilidades</h1>
-             </div>
+              </div>
+                <div class="circuloD">
+                    <img src="circulo.svg" alt="circuloD">
+                </div>
+            </div>
         </div>
+   
+       
 
-        <div class="row">
+     <div class="row">
             
-            <div class="col-12 habilidades">
-                <img  src="mobile.svg" alt="mobile design">
-                <footer><p>Mobile app design</p></footer>
-                <img src="mdi_motion.svg" alt="motion Design">
+        <div class="col- 12 habilidadM">
+              <div class="mobile"> 
+                 <img  class="mobilefondo" src="mobile.svg" alt="mobile design">
+                 <p>Mobile app design</p>
+              </div>
+            <div class="motion">  
+                <img  class="motionfondo" src="mdi_motion.svg" alt="motion Design">
                 <p>Motion design</p>
             </div>
-             
-            <div class="col-12 desarrollo">
-                <img src="materialdesign.svg" alt="sistemas de diseño">
-                <p>Creacion de sistemas de diseño</p>
-                <img src="web.svg" alt="desarrolloWeb">
-                <p>Desarrollo web</p>
-            </div>
-    
+        </div> 
+      </div>    
+        
+        <div class="row">
+         <div class="col-12 desarrollo">
+                <div class="diseño">
+                  <img class="diseñofondo" src="materialdesign.svg" alt="sistemas de diseño">
+                  <p>Creacion de sistemas de diseño</p>
+                </div>
+              <div class="web">
+                   <img class="webfondo" src="web.svg" alt="desarrolloWeb">
+                   <p>Desarrollo web</p>
+              </div>
+         </div>  
         </div>
              
              
@@ -88,11 +112,13 @@
     </div>
 
     <div class="row">
-
-        <p>2016-2018</p> <p>Visual designer</p>
+        <div class="circuloI"><img src="circulo.svg" alt="circuloXD"></div>
+        <div class="col- 12 habilidades">
+         <div><p class="años">2016-2018</p></div>        
+         <div><p class="exp">Visual designer</p></div>     
         <p>2018-2019</p> <p>Product designer</p>
         <p>2019-2021</p> <p>Ui Enginer</p>
-        <img src="circulo.svg" alt="circuloXD">
+        </div>
     </div>
      
 <div class="row">
@@ -131,25 +157,32 @@
 <div class="row">
         <div class="col-12 contacto"> 
                 
-            <div>
+            <div class="celular">
                 
                 <img src="llamada.svg" alt="llamar">
                 <p>Numero celular</p>
                 <p>5526895424</p>
+                
             </div>
             
-            <div>
+            <div class="correo">
+                
                 <img src="mail 3.svg" alt="email">
-                <p>email</p>
-                <p>example@correo.com</p>    
+                <p>email </p> 
+                <p>example@correo.com </p>
+                  
             </div>
            
               
         </div>
        
     </div>
-    <footer>
-    <p>Hecho con corazon en Academlo</p>  
-    </footer>
+    
+    <div>
+     <footer>
+       <p class="pieP">Hecho con ♠ en Academlo </p> 
+     </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,10 @@
+html {
+     box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 html{
     background-color: #020403;
     
@@ -25,6 +32,27 @@ p{
  margin-left: auto;
   color: #ffffff;
   padding: 1rem;
+  background-color: #020403;
+}
+button{
+    background-color: #020403;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav{
+    text-align: right;
+    padding: 1rem 3rem;
+}
+.hidden{
+    display: none;
 }
 .dani{
     position: static ;
@@ -36,35 +64,116 @@ p{
     background-image: url(lineaArriba.svg);
   
 }
-
-.uno{
-    display: inline-flex;
-    margin: auto;
-}
-.dos{
-    display: inline-block;
-    margin: auto;
-}
-.tres{
-    display: inline-block;
-    margin: auto;    
-}
-
 .imagenportafolio{
  display: flex;
 }
+.imagenportafolio img{
+    width: 20rem;
+    height: 20rem;
+    margin: 0.5rem;
+}
 .contacto{
     display: flex;
+    justify-content: center;   
+    text-align: center; 
 }
 
-.tituloContacto{
-    text-align: center;
-}
-.habilidades{
-    text-align: center;
+
+.habilidadM{
+    box-sizing: border-box ;
     display: flex;
+    justify-content: center;
 }
 .desarrollo{
     text-align: center;
     display: flex;
+    justify-content: center;
+}
+.pieP{
+    text-align: center;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.circuloD{
+    background-image: url(circulo.svg);
+    position: absolute;
+    margin-left: 95rem;
+}
+.circuloI{
+    background-image: url(circulo.svg);
+    position: absolute;
+}
+.habilidades{
+   box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+.celular img{
+    width: 2rem;
+    height: 2rem;
+}
+.correo img{
+    width: 2rem;
+    height: 2rem;
+}
+.correo{
+    margin-left: 3rem;
+}
+.celular{
+    margin-left: 3rem;
+}
+.motion{
+    margin: auto ;
+    text-align: center; 
+}
+.mobile{
+    margin: auto ;
+    text-align: center; 
+   
+   
+}
+.diseño{
+    margin: auto ;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding-top: 5rem; 
+}
+.web{
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+.mobilefondo{
+    background-color:#1a1a1a ;
+    border-radius: 45rem;
+}
+.webfondo{
+    background-color: #1a1a1a;
+    border-radius: 45rem;
+}
+.motionfondo{
+    background-color: #1a1a1a;
+    border-radius: 45rem;
+}
+.diseñofondo{
+    background-color: #1a1a1a;
+    border-radius: 45rem;
+}
+.mobile img{
+    width: 5rem;
+    height: 5rem;
+}
+.motion img{
+    width: 5rem;
+    height: 5rem;
+} 
+.web img{
+    width: 5rem;
+    height: 5rem;
+}
+.diseño img{
+    width: 5rem;
+    height: 5rem;
 }
