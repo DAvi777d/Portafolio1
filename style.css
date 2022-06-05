@@ -17,7 +17,7 @@ html{
 }
 
 .subtitulo{
-    color: #ffffff;
+    color: #adadad;
     text-align: center;
     font-family: Rubik,'Times New Roman', Times, serif;
 }
@@ -26,7 +26,9 @@ p{
     color: #ffffff;
     font-family: Rubik,'Times New Roman', Times, serif;
 }
-
+.presentacion{
+    color: #adadad;
+}
 .menu{
  display: block;
  margin-left: auto;
@@ -42,6 +44,11 @@ button{
 nav ul{
     list-style: none;
     text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    text-align: right;
 }
 nav a{
     text-decoration: none;
@@ -91,6 +98,7 @@ nav{
 }
 .pieP{
     text-align: center;
+    color: #adadad;
 }
 .redes{
     display: flex;
@@ -113,6 +121,7 @@ nav{
 .celular img{
     width: 2rem;
     height: 2rem;
+   
 }
 .correo img{
     width: 2rem;
@@ -120,6 +129,7 @@ nav{
 }
 .correo{
     margin-left: 3rem;
+    
 }
 .celular{
     margin-left: 3rem;
@@ -135,15 +145,16 @@ nav{
    
 }
 .diseño{
-    margin: auto ;
+    
     text-align: center;
-    margin-left: 0.5rem;
+    margin-right: 8.5rem;
     padding-top: 5rem; 
 }
 .web{
-    margin: auto;
+   
     text-align: center;
     padding-top: 5rem;
+    margin-left: 5.5rem;
 }
 .mobilefondo{
     background-color:#1a1a1a ;
@@ -177,3 +188,4 @@ nav{
     width: 5rem;
     height: 5rem;
 }
+

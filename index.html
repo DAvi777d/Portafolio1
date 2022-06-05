@@ -10,14 +10,20 @@
 </head>
 <body>
    
+    <header>
         <nav>
-            <button onclick="toggleMenu()"> - </button>
-            <ul class="hidden" id="nav">
+            
+            <button onclick="toggleMenu()"> 
+                - 
+            </button>
+            
                <!--  <div>
                     <button>
                         <img class="menu" src="menu 1.svg" alt="menu hamburguesa">  
                     </button> 
                 </div> -->
+                <!-- class="hidden" id="nav"  -->
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Acerca de mi</a></li>
                 <li><a href="#">Mis habilidades</a></li>
@@ -26,7 +32,7 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
-  
+ </header>
   
     
     <div class="fondo">
@@ -35,7 +41,7 @@
     
     <div>
        
-        <h2 class="subtitulo">Hola, soy  Dan</h2>
+        <h2 class="subtitulo">Hola, soy  David</h2>
         <h1 class="titulo">Diseñador y desarrollador web</h1>
        
       <div class="row">
@@ -46,14 +52,12 @@
        </div>
       </div>
     </div>
-  
+
     <div>
      <h1 class="titulo">Acerca de mi</h1>
-     <p>Lorem ipsum dolor sit amet,consectefur adipiscing elit.Cras augue neque,
-     sagittis quis dolor ut,varius lacina ante. Curabitur 
-     accumsan risus quis iaculis laoreet. Nulla quis felis
-     maximus,feugiat nisi a, pulvinar ex. sed arcu ex, dapibus sed porttitor
-     in dapibus in mi. Fucse volupat lacinia odio non malesuada.    
+     <p class="presentacion">Estudiante de ingeniería de software en tercer semestre persona con liderazgo,creatividad trabajo
+    en equipo, adaptabilidad al cambio,organizacion y buena capacidad de relaciones interpersonales. Con conocimientos 
+    en herramientas ofimáticas avanzadas,manejo de base de datos con SQL server y creacion de dashboard con Power BI.  
      </p>
     </div>
     
@@ -114,10 +118,12 @@
     <div class="row">
         <div class="circuloI"><img src="circulo.svg" alt="circuloXD"></div>
         <div class="col- 12 habilidades">
-         <div><p class="años">2016-2018</p></div>        
-         <div><p class="exp">Visual designer</p></div>     
-        <p>2018-2019</p> <p>Product designer</p>
-        <p>2019-2021</p> <p>Ui Enginer</p>
+         <div><p class="presentacion">2016-2018</p></div>        
+         <div><p class="exp">Visual designer</p></div>  
+         <hr>   
+        <p class="presentacion">2018-2019</p> <p>Product designer</p>
+        <hr>
+        <p class="presentacion">2019-2021</p> <p>Ui Enginer</p>
         </div>
     </div>
      
@@ -160,16 +166,16 @@
             <div class="celular">
                 
                 <img src="llamada.svg" alt="llamar">
-                <p>Numero celular</p>
-                <p>5526895424</p>
+                <p class="presentacion">Numero celular</p>
+                <p class="presentacion">(+57)3232200439</p>
                 
             </div>
             
             <div class="correo">
                 
                 <img src="mail 3.svg" alt="email">
-                <p>email </p> 
-                <p>example@correo.com </p>
+                <p class="presentacion">email </p> 
+                <p class="presentacion">barrerajulian777@gmail.com</p>
                   
             </div>
            
@@ -183,6 +189,6 @@
        <p class="pieP">Hecho con ♠ en Academlo </p> 
      </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -44,14 +44,76 @@
 
 @media (min-width: 768px) {
 
+
+.motion{
+    margin-right: 15rem ;
+    text-align: center; 
+}
+.mobile{
+    
+    text-align: center; 
+   margin-left: 10rem;
+   
+}
+.diseño{
+    
+    text-align: center;
+    margin-left: 10rem;
+}
+.web{
+   
+    text-align: center;
+    margin-right: 15rem ;
+}
+
 }
 
 @media (min-width: 992px) {
-
- }
-
+         nav li{
+             display: inline-block;
+             margin-left: 0.5rem;
+         }
+         button{
+             display: none;
+         }
+         .dani{
+             padding-top: 5rem;
+         }
+         .diseño{
+            margin-left:  9.5rem;
+            text-align: center;
+        }
+        .web{
+           
+            margin-left: auto;
+           text-align: center;
+           
+        }
+        .motion{
+            margin-left: auto;
+            text-align: center;
+        }
+        .mobile{
+            margin-left: auto;
+            text-align: center;
+        }
+        .subtitulo{
+            margin-top: 4rem;
+        }
+        
+}
  @media (min-width: 1200px) { 
-     
+
+    .mobile{
+        margin-left: 12rem;
+        text-align: center;
+    }
+
+    nav li{
+        display: inline-block;
+        margin-left: 2rem;
+        text-align: end;
+    }
  }
 
 
