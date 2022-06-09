@@ -13,7 +13,7 @@ html{
 .titulo{
     color: #ffffff;
     text-align: center;
-    font-family: Rubik,'Times New Roman', Times, serif;
+    font-family: 'Rubik','Times New Roman', Times, serif;
 }
 
 .subtitulo{
@@ -85,17 +85,6 @@ nav{
     text-align: center; 
 }
 
-
-.habilidadM{
-    box-sizing: border-box ;
-    display: flex;
-    justify-content: center;
-}
-.desarrollo{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
 .pieP{
     text-align: center;
     color: #adadad;
@@ -113,10 +102,19 @@ nav{
     background-image: url(circulo.svg);
     position: absolute;
 }
-.habilidades{
-   box-sizing: border-box;
+.tabla{
+  
     text-align: center;
     justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+.Experienciah{
+   display: inline-block;
+   /*  text-align: center; */
+  /*   justify-content: center; */
+    /* margin: auto; */
+  /*   width: 50%; */
 }
 .celular img{
     width: 2rem;
@@ -134,58 +132,10 @@ nav{
 .celular{
     margin-left: 3rem;
 }
-.motion{
-    margin: auto ;
-    text-align: center; 
-}
-.mobile{
-    margin: auto ;
-    text-align: center; 
-   
-   
-}
-.diseño{
-    
-    text-align: center;
-    margin-right: 8.5rem;
-    padding-top: 5rem; 
-}
-.web{
-   
-    text-align: center;
-    padding-top: 5rem;
-    margin-left: 5.5rem;
-}
 .mobilefondo{
     background-color:#1a1a1a ;
-    border-radius: 45rem;
+    border-radius: 10rem;
+    width: auto;
 }
-.webfondo{
-    background-color: #1a1a1a;
-    border-radius: 45rem;
-}
-.motionfondo{
-    background-color: #1a1a1a;
-    border-radius: 45rem;
-}
-.diseñofondo{
-    background-color: #1a1a1a;
-    border-radius: 45rem;
-}
-.mobile img{
-    width: 5rem;
-    height: 5rem;
-}
-.motion img{
-    width: 5rem;
-    height: 5rem;
-} 
-.web img{
-    width: 5rem;
-    height: 5rem;
-}
-.diseño img{
-    width: 5rem;
-    height: 5rem;
-}
+
 
