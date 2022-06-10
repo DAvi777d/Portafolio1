@@ -1,10 +1,10 @@
-html {
+/* html {
      box-sizing: border-box;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
+ */
 html{
     background-color: #020403;
     
@@ -29,6 +29,17 @@ p{
 .presentacion{
     color: #adadad;
 }
+.AcercaDeMi{
+    height: 25%;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    color: #adadad;
+}
+/* .parrafo{
+    border-radius: 4%;
+    background-color: white;
+} */
 .menu{
  display: block;
  margin-left: auto;
@@ -69,16 +80,16 @@ nav{
 }
 .fondo{
     background-image: url(lineaArriba.svg);
-  
+   margin: auto;
 }
 .imagenportafolio{
  display: flex;
 }
-.imagenportafolio img{
+/* .imagenportafolio img{
     width: 20rem;
     height: 20rem;
     margin: 0.5rem;
-}
+} */
 .contacto{
     display: flex;
     justify-content: center;   
@@ -102,6 +113,7 @@ nav{
     background-image: url(circulo.svg);
     position: absolute;
 }
+/* tablas */
 .tabla{
   
     text-align: center;
@@ -110,12 +122,38 @@ nav{
     width: 50%;
 }
 .Experienciah{
-   display: inline-block;
+   display: flex;
+   text-align: left;
    /*  text-align: center; */
   /*   justify-content: center; */
     /* margin: auto; */
   /*   width: 50%; */
 }
+.tablaExperiencia{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.tablaPortafolio{
+   margin: auto;
+   display: inline-flexbox;
+   /* justify-content: center;   */ 
+/*    box-sizing: border-box; */
+   
+}
+.imagen{
+    width: 15rem;
+    height: 15rem;
+    padding: 3%;
+  /*   margin: auto; */
+    /* justify-items: center; */
+}
+
+.años{
+    color: #adadad;
+    text-align: left; 
+}
+/* fin tablas */
 .celular img{
     width: 2rem;
     height: 2rem;
@@ -133,7 +171,7 @@ nav{
     margin-left: 3rem;
 }
 .mobilefondo{
-    background-color:#1a1a1a ;
+    background-color:#831111 ;
     border-radius: 10rem;
     width: auto;
 }
