@@ -7,24 +7,33 @@
  */
 html{
     background-color: #020403;
-    
+    z-index: 99;
 }
+body{
+    position: relative;
+   font-family: sans-serif;
 
+}
 .titulo{
     color: #ffffff;
     text-align: center;
-    font-family: 'Rubik','Times New Roman', Times, serif;
+    
+}
+
+.tituloP{
+    color: #ffffff;
+    text-align: center;
+    padding: 1%;
 }
 
 .subtitulo{
     color: #adadad;
     text-align: center;
-    font-family: Rubik,'Times New Roman', Times, serif;
+   
 }
 
 p{
     color: #ffffff;
-    font-family: Rubik,'Times New Roman', Times, serif;
 }
 .presentacion{
     color: #adadad;
@@ -36,10 +45,10 @@ p{
     text-align: center;
     color: #adadad;
 }
-/* .parrafo{
+.parrafo{
     border-radius: 4%;
-    background-color: white;
-} */
+    background-color: #adadad;
+}
 .menu{
  display: block;
  margin-left: auto;
@@ -72,15 +81,55 @@ nav{
 .hidden{
     display: none;
 }
-.dani{
-    position: static ;
-    display: block;
+.david{
+   /*  position: static ; */
+    display: flex;
     margin: auto;
+    border-radius: 45rem;
+    /* z-index: 1; */
+}
+.contenedorf1{
+    display: flex;
+}
+.fondo1{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 5%;
 
 }
-.fondo{
-    background-image: url(lineaArriba.svg);
-   margin: auto;
+.contenedorf2{
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
+.fondo2{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    height: 100%;
+}
+.containercirculo{
+    width: 5%;
+    display: flex;
+}
+.circulo{
+    position: absolute;
+    top: 74%;
+    z-index: -1;
+    
+}
+.circulo2{
+    position: absolute;
+    top: 24%;
+    z-index: -1;
+ box-sizing: content-box;
+ justify-content: center;
+    
+}
+
+.espacio{
+    padding: 5%;
 }
 .imagenportafolio{
  display: flex;
@@ -103,6 +152,7 @@ nav{
 .redes{
     display: flex;
     justify-content: center;
+    /* padding: 5%; */
 }
 .circuloD{
     background-image: url(circulo.svg);
@@ -119,39 +169,36 @@ nav{
     text-align: center;
     justify-content: center;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 .Experienciah{
    display: flex;
    text-align: left;
-   /*  text-align: center; */
-  /*   justify-content: center; */
-    /* margin: auto; */
-  /*   width: 50%; */
 }
 .tablaExperiencia{
     margin: auto;
     justify-content: center;
     text-align: center;
+    border-collapse: collapse;
+    width: 60%;
 }
 .tablaPortafolio{
    margin: auto;
-   display: inline-flexbox;
-   /* justify-content: center;   */ 
-/*    box-sizing: border-box; */
-   
+   display: inline-flexbox;  
 }
 .imagen{
     width: 15rem;
     height: 15rem;
     padding: 3%;
-  /*   margin: auto; */
-    /* justify-items: center; */
+ 
 }
 
 .años{
     color: #adadad;
     text-align: left; 
+}
+.linea{
+    border-bottom: 0.5px solid white;
 }
 /* fin tablas */
 .celular img{
