@@ -19,7 +19,6 @@ body{
     text-align: center;
     
 }
-
 .tituloP{
     color: #ffffff;
     text-align: center;
@@ -164,6 +163,9 @@ nav{
     position: absolute;
 }
 /* tablas */
+.prueba{
+    width: 50%;
+}
 .tabla{
   
     text-align: center;
