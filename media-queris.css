@@ -45,13 +45,31 @@
      .tablaPortafolio{
         display: block;
      }
-    
+     body{
+        overflow: hidden;
+    }
+    .ham{
+        display: block;
+    }
+    nav{
+        flex-direction: column;
+        align-items:flex-end;   
+    }
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        display: block;
+       
+    }
+   
     
 }
 
 @media (min-width: 768px) {
-
-
 .motion{
     margin-right: 15rem ;
     text-align: center; 
